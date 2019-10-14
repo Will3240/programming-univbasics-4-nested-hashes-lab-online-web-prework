@@ -66,15 +66,10 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-     {       
-              programmer_hash={
-                :known_for => [Ruby],
-                :languages => [LISP]
-                
-              
-         },
-     }
- 		  	  :grace_hopper => {
+            
+     	programmer_hash = 
+ 		{
+        :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
@@ -85,9 +80,8 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
-          
         }
-     }
+     }         
      programmer_hash[:grace_hopper][:alan_kay][:dennis_ritchie]
 end
 
